@@ -14,7 +14,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
 				.allowedOrigins("http://localhost:3000","http://localhost:9000")	// 여기에서 오는것만 허락해주겠다
 				.allowedHeaders("*") // 모든 요청해더
 				.exposedHeaders("Authorization")//노출시킬헤더
-				.allowCredentials(true); // 쿠키허용
+				.allowCredentials(true); // 쿠키허용 
 	}
 	
 }
